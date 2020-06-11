@@ -51,8 +51,8 @@ task_text.grid(row = 0, column = 0, sticky = 'N', padx=5)
 task = tkinter.Entry(root)
 task.grid(row = 0, column = 1, sticky = 'N', padx=5)
 
-cat_text = tkinter.Label(root, text = 'Категория:')
-cat_text.grid(row = 1, column = 0, sticky = 'N', padx=5)
+category_text = tkinter.Label(root, text = 'Категория:')
+category_text.grid(row = 1, column = 0, sticky = 'N', padx=5)
 
 category = tkinter.Entry(root)
 category.grid(row = 1, column = 1, sticky = 'N', padx=5)
